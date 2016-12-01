@@ -1,9 +1,9 @@
 # expert_system
 Backward-chaining inference engine in Ruby - 42 school project
 
-```ruby expert_system.rb [file]```<br />
+```ruby expert_system.rb [path/to/file]```<br />
 or<br />
-```ruby expert_system.rb```  => run [file]
+```ruby expert_system.rb```  => run [path/to/file]
 
 <h4>File example:</h4>
 
@@ -24,7 +24,7 @@ N => M
 ?AFKP                # list of queries
 ```
 
-<h4>"man" for a list of available commands:</h4>
+<h4>"help" for a list of available commands:</h4>
 
 ```
 ====================================== COMMANDS =======================================
