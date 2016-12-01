@@ -5,7 +5,7 @@ Backward-chaining inference engine in Ruby - 42 school project
 or<br />
 ```ruby expert_system.rb```  => run [file]
 
-File example:
+<h4>File example:</h4>
 
 ```
 B => A               # if B(true) then A(true)
@@ -24,7 +24,7 @@ N => M
 ?AFKP                # list of queries
 ```
 <br/>
-Type "man" for a list of available commands:
+<h4>"man" for a list of available commands:</h4>
 
 ```
 ====================================== COMMANDS =======================================
