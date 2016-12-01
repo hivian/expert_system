@@ -7,8 +7,7 @@ or<br />
 
 type man for a list of available commands:
 
-```
-====================================== COMMANDS =======================================
+```====================================== COMMANDS =======================================
 #                                                                                     #
 #    run   [file path]               : load a file and run it. Reset all facts        #
 #                                                                                     #
@@ -22,5 +21,4 @@ type man for a list of available commands:
 #    reset                           : reset all facts and rules                      #
 #    quit                            : exit the program                               #
 #                                                                                     #
-=======================================================================================
-```
+=======================================================================================```
