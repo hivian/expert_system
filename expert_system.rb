@@ -181,7 +181,7 @@ factArray = {}
 	factArray.store(c, false)
 end
 puts "\033[31mWelcome to this interactive Expert System."
-puts "Type \"man\" to print a list of available commands."
+puts "Type \"help\" to print a list of available commands."
 puts "By default, all facts are false, and can only be made true"
 puts "by the initial facts statement, or by application of a rule.\033[0m"
 time = Time.now.getutc.strftime("%H:%M:%S")
@@ -253,7 +253,7 @@ while input = $stdin.gets
 		args[1].split('').each do |letter|
 			puts letter.upcase + " = " + factArray[letter.upcase].to_s
 		end
-	elsif input.match(/^man\s*/)
+	elsif input.match(/^help\s*$/)
 		puts "====================================== COMMANDS ======================================="
 		puts "#                                                                                     #"
 		puts "#    run   [file path]               : load a file and run it. Reset all facts        #"
