@@ -3,9 +3,28 @@ Backward-chaining inference engine in Ruby - 42 school project
 
 ```ruby expert_system.rb [file]```<br />
 or<br />
-```ruby expert_system.rb```  => "run [file]"
+```ruby expert_system.rb```  => run [file]
 
-type "man" for a list of available commands:
+<h4>File example:<h4>
+
+```
+B => A               # if B (true) then A(true)
+D + E => B           # if D and E then A
+!G + H => !F         # if G(false) and H(true) then F(false)
+I + J => G
+G <=> H              # Biconditional rule: if G then H but also if H then G
+L | M => K           # if A or M ...
+L ^ M => K           # if A xor M ...
+O + P => L | N       # ambiguous: L or N are undetermined
+N => M
+
+=DEIJOP             # By default, all facts are false, and can only be made true by this initial facts statement.
+
+?AFKP               # List of queries
+```
+
+
+Type "man" for a list of available commands:
 
 ```
 ====================================== COMMANDS =======================================
