@@ -23,7 +23,7 @@ N => M
 
 ?AFKP                # list of queries
 ```
-<br/>
+
 <h4>"man" for a list of available commands:</h4>
 
 ```
