@@ -3,9 +3,9 @@ Backward-chaining inference engine in Ruby - 42 school project
 
 ```ruby expert_system.rb [file]```<br />
 or<br />
-```ruby expert_system.rb```  => run [file]
+```ruby expert_system.rb```  => "run [file]"
 
-type man for a list of available commands:
+type "man" for a list of available commands:
 
 ```
 ====================================== COMMANDS =======================================
