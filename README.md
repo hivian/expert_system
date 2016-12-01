@@ -1,6 +1,6 @@
 # expert_system
 Backward-chaining inference engine in Ruby - 42 school project
 
-```ruby expert_system.rb [file]```
+```ruby expert_system.rb [file]``` \n
 or 
 ```ruby expert_system.rb```  => run [file]
